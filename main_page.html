@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <link rel="stylesheet" href="static/styles/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="/static/styles/main_page.css">
+        <script src="static/styles/bootstrap.min.js"></script>
+        <title>Ackland Objects</title>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="http://acklandobjects.pythonanywhere.com">Ackland Objects</a>
+            </div>
+            </div>
+        </nav>
+
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <a href="http://acklandobjects.pythonanywhere.com/number12">
+                    <img src="/static/12.jpg" alt="Legend of Lot">
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a href="http://acklandobjects.pythonanywhere.com/number13">
+                    <img src="/static/13.jpg" alt="Funerary Relief of No'om" style = "width:100%">
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a href="http://acklandobjects.pythonanywhere.com/number14">
+                    <img src="/static/14.jpg" alt="Mississippi Soil Erosion">
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a href="http://acklandobjects.pythonanywhere.com/number15">
+                    <img src="/static/15.jpg" alt="Stigmatization of St. Francis">
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a href="http://acklandobjects.pythonanywhere.com/number16">
+                    <img src="/static/16.jpg" alt="Veranda Post" style = "width:100%">
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a href="http://acklandobjects.pythonanywhere.com/number17">
+                    <img src="/static/17.jpg" alt="Cranberry Harvest">
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <div class="container">
+            <div class="h2">
+                Welcome to the Ackland! On this site, you can talk to the art!
+            </div>
+            <p>Please tap the image or enter the number of the object you are looking at (12, 13, 14, 15, 16, or 17):</p>
+            <div class="row">
+            <form method="POST">
+                <input type="text" name="user_number">
+                <input type="submit" class="btn btn-success" value="Submit">
+            </form>
+            <br>
+            </div>
+        </div>
+
+
+    </body>
+</html>
