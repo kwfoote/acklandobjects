@@ -1,0 +1,26 @@
+
+{% extends "layout.html" %}
+
+{% block content %}
+        <div class="container">
+
+            <div class="h1" style="font-size:8vw;">
+               Hello. I am St. Francis of Assisi, but I'm a little busy right now. My friend in the background with
+            the book, Brother Leo, is busy witnessing this event. Maybe you can help him out by describing what you see.
+            What is going on here?
+            </div>
+
+            <div class="row">
+                <br>
+                <form method="POST">
+                    <input type="text" name="user_input_15_1" style="font-size:7.5vw;" placeholder="Type a few words here.">
+                    <br>
+                    <br>
+                    <input type="submit" class="btn btn-success" id="bluebtn" value="Submit" style="font-size:6vw;">
+                </form>
+                <br>
+                <br>
+            </div>
+
+        </div>
+{% endblock %}

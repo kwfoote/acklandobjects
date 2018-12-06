@@ -1,0 +1,28 @@
+
+{% extends "layout.html" %}
+
+{% block content %}
+        <div class="container">
+
+            <div class="h1" style="font-size:8vw;">
+               That's a great guess. Since this painting of me is so large, it was probably intended to hang in a
+                church, behind an altar. I have an idea! Try sitting on the floor in front of the painting. This
+                will give you a better sense of how a seventeenth-century viewer might have seen it due to the fact
+                that the painting was probably hung high above the congregation. Now that you're sitting, consider
+                if it changes the way you see the painting. Does anything look different? As you wander through the
+                gallery think about where you are physically in relation to the work of art. Think about how this
+                might be similar or different from its original context.
+            </div>
+
+            <div class="row">
+                <br>
+                <form method="POST">
+
+                    <input type="submit" class="btn btn-success" id="bluebtn" value="I want to talk to another object." style="font-size:6vw;">
+                </form>
+                <br>
+                <br>
+            </div>
+
+        </div>
+{% endblock %}
