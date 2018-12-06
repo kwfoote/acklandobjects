@@ -21,7 +21,7 @@
         </nav>
 
 
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -33,6 +33,7 @@
             </ol>
 
             <!-- Wrapper for slides -->
+            <!-- Elizabeth wants these in a different order but I don't know what it is yet. -->
             <div class="carousel-inner">
                 <div class="item active">
                     <a href="http://acklandobjects.pythonanywhere.com/number12">
@@ -90,9 +91,12 @@
             <p>Please tap the image or enter the number of the object you are looking at (12, 13, 14, 15, 16, or 17):</p>
             <div class="row">
             <form method="POST">
-                <input type="text" name="user_number">
-                <input type="submit" class="btn btn-success" value="Submit">
+                <input type="text" name="user_number" style="font-size:6vw;">
+                <br>
+                <br>
+                <input type="submit" class="btn btn-success" value="Submit" style="font-size:6vw;">
             </form>
+            <br>
             <br>
             </div>
         </div>
